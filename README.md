@@ -1,2 +1,2 @@
 # HW1WEB
-First homewor in block WEB
+First homework in block WEB
