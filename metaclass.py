@@ -1,10 +1,10 @@
 class Meta(type):
     class_number = 0
 
-    def __new__(cls, *args, **kwargs):
-        instance = super.__new__(cls)
-        instance.class_number = cls.class_number
-        cls.class_number += 1
+    def __new__(mcs, *args, **kwargs):
+        instance = super.__new__(mcs)
+        instance.class_number = mcs.class_number
+        mcs.class_number += 1
         return instance
         
 

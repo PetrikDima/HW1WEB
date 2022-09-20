@@ -26,3 +26,5 @@ class BinFormat(SerializationInterface):
     def serialize_file(self, *args):
         return super().serialize_file(pickle, 'data.bin', 'wb')
 
+
+
